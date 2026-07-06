@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Three A.M.</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      body {
+        margin: 0;
+        background: #faf9f7;
+        color: #1c1b1f;
+        font-family:
+          -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.7;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 48px 24px 96px;
+      }
+      h1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin: 0 0 4px;
+      }
+      h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 40px 0 8px;
+      }
+      .meta {
+        color: #5f5b66;
+        font-size: 0.95rem;
+        margin-bottom: 24px;
+      }
+      blockquote {
+        margin: 24px 0;
+        padding: 12px 18px;
+        border-left: 3px solid #d9a87c;
+        background: #f3efe9;
+        color: #3a3640;
+        border-radius: 6px;
+      }
+      ul {
+        padding-left: 22px;
+      }
+      li {
+        margin: 6px 0;
+      }
+      a {
+        color: #9a6b3f;
+      }
+      footer {
+        margin-top: 56px;
+        color: #8a8690;
+        font-size: 0.85rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy Policy — Three A.M.</h1>
+      <p class="meta">
+        <strong>Effective date:</strong> [FILL IN before publishing] &nbsp;·&nbsp;
+        <strong>Contact:</strong> [FILL IN — your contact email]
+      </p>
+
+      <p>
+        Three A.M. is a tool for the moments at night when your mind won't slow down. What you write
+        here is yours. This policy explains, plainly, what the app collects, what it doesn't, and the
+        control you have over it.
+      </p>
+
+      <blockquote>
+        Three A.M. is a self-help tool. It is <strong>not</strong> therapy, medical advice, or an
+        emergency service. If you are in crisis, use the in-app crisis resources or contact your
+        local emergency services.
+      </blockquote>
+
+      <h2>Who we are</h2>
+      <p>
+        Three A.M. ("the app", "we") is operated by [FILL IN — your name or company]. You can reach
+        us at [FILL IN — contact email].
+      </p>
+
+      <h2>What we collect</h2>
+      <p>We keep this deliberately small.</p>
+      <ul>
+        <li>
+          <strong>What you write.</strong> The words you type when you describe what's looping, and
+          the app's response, are saved so you can revisit them in the morning. This is the most
+          sensitive thing the app handles, and we treat it that way (see <em>How we protect it</em>
+          below).
+        </li>
+        <li>
+          <strong>Your email — only if you choose to.</strong> The app works anonymously by default.
+          You only have an email on file if you opt to "save your data" by adding one, which links
+          your sessions to an account so they survive reinstalling the app.
+        </li>
+        <li>
+          <strong>An anonymous account identifier.</strong> When you first open the app it creates
+          an anonymous account so your data can be stored and retrieved. This is not tied to your
+          name or identity unless you add an email.
+        </li>
+        <li>
+          <strong>Minimal technical diagnostics.</strong> We record small, non-content metrics about
+          the AI requests (such as response time and token counts) to keep the service working.
+          These contain <strong>none</strong> of what you wrote.
+        </li>
+      </ul>
+
+      <h2>What we do NOT collect</h2>
+      <ul>
+        <li>No advertising identifiers, and <strong>no ads</strong>.</li>
+        <li>No third-party analytics or tracking SDKs.</li>
+        <li>No location, contacts, photos, files, microphone, or camera data.</li>
+        <li>No device push tokens (reminders are scheduled locally on your device).</li>
+        <li>
+          We do <strong>not</strong> sell your data, and we do <strong>not</strong> use your writing
+          to train AI.
+        </li>
+      </ul>
+
+      <h2>How we use what we collect</h2>
+      <ul>
+        <li>To generate a calm, in-the-moment response to what you wrote.</li>
+        <li>To save your entry so a clearer, daytime version of you can revisit it.</li>
+        <li>To send you a local morning reminder, if you turn that on.</li>
+        <li>To operate, secure, and debug the service.</li>
+      </ul>
+
+      <h2>How we protect it</h2>
+      <ul>
+        <li><strong>In transit:</strong> all data is sent over encrypted connections (HTTPS).</li>
+        <li>
+          <strong>At rest:</strong> the content you write is additionally encrypted by us using
+          AES-GCM-256 before it is stored, with a key that is never placed on your device or in the
+          database alongside the data.
+        </li>
+        <li>
+          Access to your data is restricted, per-account, by database security rules so that one
+          user cannot read another user's content.
+        </li>
+      </ul>
+
+      <h2>Who processes your data (service providers)</h2>
+      <p>
+        We use a small number of providers that process data on our behalf, not for their own
+        purposes:
+      </p>
+      <ul>
+        <li>
+          <strong>Supabase</strong> — hosts the database, authentication, and server functions where
+          your account and encrypted content live.
+        </li>
+        <li>
+          <strong>Anthropic (Claude API)</strong> — the text you write is sent to Anthropic to
+          generate the app's response. Anthropic processes it on our behalf to return a reply and,
+          under their commercial API terms, <strong>does not use it to train their models</strong>.
+        </li>
+      </ul>
+      <p>We do not share your data with third parties for advertising or their own use.</p>
+
+      <h2>How long we keep it</h2>
+      <p>
+        You choose. In Settings, "Keep new sessions for" lets you pick <strong>7, 30, 90, or 365
+        days, or Forever</strong>. The default is <strong>90 days</strong>. Entries older than your
+        chosen window are removed automatically.
+      </p>
+
+      <h2>Your choices and rights</h2>
+      <ul>
+        <li>
+          <strong>Delete everything, anytime.</strong> In Settings, "Delete my account and data"
+          permanently removes your sessions, morning revisits, and account. This cannot be undone.
+        </li>
+        <li><strong>Stay anonymous.</strong> You never have to add an email.</li>
+        <li>
+          <strong>Reach us.</strong> For any privacy request, contact [FILL IN — contact email].
+        </li>
+      </ul>
+
+      <h2>Children</h2>
+      <p>
+        Three A.M. is intended for <strong>adults</strong> and is not directed at children. We do
+        not knowingly collect data from anyone under 18.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        If we change this policy, we'll update the effective date above and, for material changes,
+        surface a notice in the app.
+      </p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy or your data: [FILL IN — contact email].</p>
+
+      <footer>Three A.M.</footer>
+    </main>
+  </body>
+</html>
